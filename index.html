@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>AI wins, you loose - AWYL(OWL)</title>
+  <!--  Styles  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+
+<body>
+  <script>
+    function PopUp(){
+    document.getElementById('ac-wrapper').style.display="none";
+    }
+    
+  </script>
+  
+  <div id="ac-wrapper">
+    <div id="popup">
+      <center>
+        <h2 id="poptxt">
+          This game is just for fun, no offense intended.
+              If you feel like you are hurt in any way, Im sorry.
+              This game is not low your self esteem or put you below others.
+              Its all just fun.
+              If you take anything in a playful and a competitive way, you can continue.
+              <br>
+              <b><i>Its just Gamemanship.</i></b>
+              
+              <hr>
+              <i>If you are ok with above content, continue.</i>
+        </h2>
+        <br>
+        <input class="input"  type="submit" name="submit" value="I'm a Gamer" onClick="PopUp()" />
+      </center>
+    </div>
+  </div>
+  
+  <div class="wrapper">
+    <div class="content">
+      <div class="sidebar">
+        <h1>AI WINS, YOU LOOSE.</h1>
+        <br>
+        <br>
+        <br>
+        <div class="panel dif">
+          <h2>Difficulty</h2>
+          <div class="dif-options">
+            <div>
+              <input id="dif1" type="radio" name="dif-options" value="1">
+              <label for="dif1">1</label>
+            </div>
+            <div>
+              <input id="dif2" type="radio" name="dif-options" value="2">
+              <label for="dif2">2</label>
+            </div>
+            <div>
+              <input id="dif3" type="radio" name="dif-options" value="3" checked>
+              <label for="dif3">3</label>
+            </div>
+            <div>
+              <input id="dif4" type="radio" name="dif-options" value="4">
+              <label for="dif4">4</label>
+            </div>
+            <div>
+              <input id="dif5" type="radio" name="dif-options" value="5">
+              <label for="dif5">5</label>
+            </div>
+          </div>
+          <div class="start">
+            <button>Start Game</button>
+          </div>
+        </div>
+        <div class="panel info">
+          <h2></h2>
+          <div class="blurb"></div>
+          <div class="outlook"></div>
+        </div>
+      </div>
+      <div class="board">
+        <div class="lit-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="lit-cells"></div>
+        <div class="chips"></div>
+        <div class="click-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
